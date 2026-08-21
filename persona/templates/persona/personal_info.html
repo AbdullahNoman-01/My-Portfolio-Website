@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block extra_css %}
+   <link rel="stylesheet" href="{% static 'persona/css/personal_info.css' %}">
+{% endblock %}
+
+{% block content %}
+   <section class="personal-info">
+
+    <div>
+        <h1>
+            <span>Hi, I'm Abdullah Al Noman</span>
+        </h1>
+
+        <h4>
+            3rd-year Computer Science & Engineering student — graduating in 2027.
+            I’m a passionate developer focused on building practical web
+            applications and solving problems through clean, efficient code.
+
+            My current focus is Python and Django, with a growing interest in
+            Django REST Framework, REST APIs, PostgreSQL, and backend development.
+            I also work with C/C++ and Data Structures & Algorithms, while
+            continuously improving my problem-solving and software development skills.
+
+            I enjoy turning ideas into real-world projects, learning new
+            technologies, and building things that are simple, useful, and scalable.
+        </h4>
+    </div>
+
+
+    <div>
+        <h1>
+            <span>Education</span>
+        </h1>
+
+        <h4>
+            JAMALPUR SCIENCE AND TECHNOLOGY UNIVERSITY
+        </h4>
+    </div>
+</section>
+<!-- Profiles -->
+<div class="profiles">
+
+    <a href="https://github.com/AbdullahNoman-01"
+       target="_blank"
+       class="profile-card">
+
+        <img src="{% static 'persona/images/git.png' %}" alt="GitHub">
+
+        <div class="profile-text">
+            <h3>GitHub</h3>
+            <p>@AbdullahNoman-01</p>
+        </div>
+
+        <span class="profile-arrow">↗</span>
+
+    </a>
+
+
+    <a href="https://leetcode.com/u/abdullah_noman1/"
+       target="_blank"
+       class="profile-card">
+
+        <img src="{% static 'persona/images/leet.png' %}" alt="LeetCode">
+
+        <div class="profile-text">
+            <h3>LeetCode</h3>
+            <p>@abdullah_noman1</p>
+        </div>
+
+        <span class="profile-arrow">↗</span>
+
+    </a>
+
+</div>
+
+{% endblock %}

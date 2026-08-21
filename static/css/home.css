@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #ffffff;
+  color: #222;
+  transition: 0.3s;
+}
+
+.navbar {
+  background: #ffffff;
+  transition: 0.3s;
+}
+
+.menu-container a {
+  color: #222;
+}
+
+.theme-toggle button {
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+/* Dark Mode */
+body.dark-mode {
+  background: #121212;
+  color: #ffffff;
+}
+body.dark-mode .navbar {
+  background: #121212;
+}
+body.dark-mode .menu-container a {
+  color: #ffffff;
+}
+body.dark-mode .hero-content h1,
+body.dark-mode .hero-content h2,
+body.dark-mode .hero-description {
+  color: #ffffff;
+}
+.navbar {
+  width: 80%;
+  height: 90px;
+  margin: 17px auto;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  border: 1px solid #292929;
+  border-radius: 20px;
+  background: rgba(15, 15, 15, 0.75);
+  box-shadow: 0 0 20px rgba(0, 200, 255, 0.05);
+  backdrop-filter: blur(12px);
+}
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  min-width: 280px;
+}
+.home {
+  color: #00d9ff;
+  font-size: 30px;
+}
+.logo {
+  color: #00d9ff;
+  font-size: 24px;
+  font-family: cursive;
+  font-style: italic;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+  flex: 1;
+}
+.menu a {
+  color: #d0d0d0;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.menu a:hover {
+  color: #00d9ff;
+}
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.ai-icon {
+  font-size: 25px;
+  color: #cfcfcf;
+  padding-right: 28px;
+  border-right: 1px solid #292929;
+}
+.dark-btn {
+  height: 38px;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #00677a;
+  border-radius: 25px;
+  color: #aaa;
+  font-size: 16px;
+  background: rgba(10, 20, 25, 0.6);
+}
+
+/* final footer */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f8fc;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    width: 100%;
+    min-height: 120px;
+
+    background: #f5f9fc;
+
+    border-top: 1px solid #dce7ed;
+    border-bottom: 1px solid #dce7ed;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* Main footer container */
+
+.footer-content {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Copyright */
+
+.copyright {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: #8b949b;
+
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+/* Blue Dot */
+
+.dot {
+    width: 7px;
+    height: 7px;
+
+    background: #19c5ed;
+
+    border-radius: 50%;
+
+    display: inline-block;
+}
+
+
+/* Footer Buttons */
+
+.footer-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+/* Individual Button */
+
+.footer-btn {
+    min-width: 105px;
+    height: 42px;
+    padding: 0 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #19c5ed;
+    background: #ffffff;
+    border: 1px solid #9ce8fa;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow:
+        0 5px 12px rgba(0, 180, 230, 0.12),
+        0 2px 5px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+}
+
+
+/* Icon */
+
+.footer-btn span {
+    font-size: 16px;
+    color: #19c5ed;
+}
+
+/* Hover */
+.footer-btn:hover {
+    transform: translateY(-4px);
+
+    background: #eafaff;
+
+    border-color: #19c5ed;
+
+    box-shadow:
+        0 8px 18px rgba(0, 180, 230, 0.20);
+}
+
+body.dark-mode .footer {
+    background: #121212;
+
+    border-top: 1px solid #292929;
+    border-bottom: 1px solid #292929;
+}
+
+body.dark-mode .copyright {
+    color: #888;
+}
+
+body.dark-mode .footer-btn {
+    background: #1c1c1c;
+
+    border-color: #00677a;
+
+    color: #19c5ed;
+}
+
+body.dark-mode .footer-btn:hover {
+    background: #202a2d;
+}
+
+
+
+/* hero section */
+
+.hero-container {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 60px 10%;
+}
+
+.hero-content {
+  max-width: 650px;
+}
+
+.hero-greeting {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+
+.hero-content h1 span {
+  font-weight: 700;
+  color: #1eb0ca;
+}
+
+.hero-content h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.hero-image img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+
+
+/* skill section */
+
+.skills-section {
+    padding: 90px 5%;
+    background: #fafafa;
+}
+.skills-header {
+    text-align: center;
+    margin-bottom: 55px;
+}
+.skills-label {
+    display: inline-block;
+    padding: 7px 16px;
+    border-radius: 20px;
+    background: #111;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.skills-header h2 {
+    margin: 0 0 12px;
+    font-size: 42px;
+    color: #111;
+}
+.skills-header p {
+    margin: 0 auto;
+    max-width: 600px;
+    color: #777;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+}
+.skill-card {
+    min-height: 190px;
+    background: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px;
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+}
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow:
+        0 12px 25px rgba(0, 0, 0, 0.16);
+}
+.skill-icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-icon img {
+    max-width: 75px;
+    max-height: 75px;
+    object-fit: contain;
+    display: block;
+}
+.skill-card h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}

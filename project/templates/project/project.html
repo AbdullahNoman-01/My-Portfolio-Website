@@ -1,0 +1,42 @@
+{% extends "base.html" %} 
+{% load static %} 
+{% block extra_css %}
+   <link rel="stylesheet" href="{% static 'project/css/project.css'%}" />
+{% endblock %} 
+{% block content %}
+   <div class="container">
+      <div class="portfolio-header">
+         <div class="portfolio-label">Portfolio</div>
+         <h1 class="portfolio-title">Selected Works</h1>
+      </div>
+
+  {% comment %} fake project {% endcomment %}
+      <div class="projects-grid">
+         {% for project in projects %}
+            
+               <div class="project-card">
+                  <a href="{% url 'project_detail' project.id %} "class="hello-a">
+                  <div class="project-image">
+                  {% if project.image %}
+                  <img src="{{ project.image.url}}" alt="project ss" />
+                  {% endif %}
+                  </div>
+                  <div class="project-content">
+                  <h2 class="project-title">{{ project.title }}</h2> 
+                  </a>
+                  <p class="project-description">{{project.description}}</p>
+                  <div class="project-features">{{project.technology}}</div>
+                  <div class="project-links">
+                     {% if project.github_link %}
+                     <a href="{{ project.github_link}}" class="project-link">GitHub</a>
+                     {% endif %}
+                  </div>
+                  </div>
+               </div>
+         {% endfor %}
+      </div>
+   </div>
+
+
+   <script src="{% static 'js/home.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,81 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}" />
+   {% block extra_css %}
+
+   {% endblock %}
+    
+  </head>
+  <body>
+    <header>
+      {% comment %} navber {% endcomment %}
+      <nav class="navbar">
+        <div class="logo-section">
+         <a href="{% url 'home' %}" class="logo-link">
+            <span class="home">⌂</span>
+            <span class="logo">abdullahnoman.me</span>
+         </a>
+        </div>
+        <div class="menu">
+          <a href="{% url 'project' %}">Projects</a>
+          <a href="{% url 'credenrials' %}">Credentials</a>
+          <a href="{% url 'info' %}">Persona</a>
+          <a href="{% url 'stream' %}">Stream</a>
+        </div>
+
+        <div class="right-section">
+          <span class="ai-icon">♙</span>
+
+          <div class="theme-toggle">
+            <button id="darkBtn">🌙</button>
+            <button id="lightBtn">☀️</button>
+          </div>
+        </div>
+      </nav>
+
+   <!-- Page Content -->
+   {% block content %}
+
+   {% endblock %}
+
+   {% comment %} footer {% endcomment %}
+
+   <footer class="footer">
+    <div class="footer-content">
+
+        <div class="copyright">
+            <span class="dot"></span>
+            <span>@abdullahnoman</span>
+        </div>
+
+        <div class="footer-buttons">
+
+            <a href="#" class="footer-btn">
+                <span>⌁</span>
+                Visitors
+            </a>
+
+            <a href="#" class="footer-btn">
+                <span>▧</span>
+                Gallery
+            </a>
+
+            <a href="#" class="footer-btn">
+                <span>▣</span>
+                Monitor
+            </a>
+
+        </div>
+
+    </div>
+</footer>
+
+<script src="{% static 'js/home.js' %}"></script>
+  </body>
+</html>

@@ -1,0 +1,176 @@
+/* ================================
+   Personal Info Section
+================================ */
+
+.personal-info {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 8%;
+    color: #ffffff;
+}
+
+/* Main headings */
+.personal-info h1 {
+    margin: 0 0 20px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.personal-info h1 span {
+    color: #040404;
+}
+
+/* Paragraph / Description */
+.personal-info h4 {
+    max-width: 850px;
+    margin: 0 0 60px;
+    color: #9da7b3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.9;
+    letter-spacing: 0.2px;
+}
+
+/* ================================
+   Education
+================================ */
+
+.personal-info > div:last-child {
+    margin-top: 40px;
+    padding: 30px 35px;
+    border: 1px solid #222b35;
+    border-radius: 16px;
+    background: linear-gradient(
+        145deg,
+        #111820,
+        #0c1117
+    );
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease;
+}
+
+.personal-info > div:last-child:hover {
+    transform: translateY(-5px);
+    border-color: #00d9ff;
+    box-shadow: 0 15px 40px rgba(0, 217, 255, 0.08);
+}
+
+.personal-info > div:last-child h1 {
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.personal-info > div:last-child h1 span {
+    color: #00d9ff;
+}
+
+.personal-info > div:last-child h4 {
+    margin: 0;
+    color: #e8edf2;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+/* =================================
+   GitHub & LeetCode Profile Cards
+================================= */
+
+.profiles {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 650px;
+    margin-left: 30%;
+    margin-bottom: 100px;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    min-height: 110px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: linear-gradient(
+        135deg,
+        #111820,
+        #0c1117
+    );
+
+    border: 1px solid #222b35;
+    border-radius: 18px;
+
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Image */
+
+.profile-card img {
+    width: 100%;
+    height: auto;
+
+    object-fit: contain;
+
+    margin-bottom: 20px;
+
+    border-radius: 14px;
+
+    transition: 0.3s ease;
+}
+
+/* Text */
+
+.profile-text {
+    text-align: center;
+}
+
+.profile-text h3 {
+    margin: 0 0 7px;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.profile-text p {
+    margin: 0;
+    color: #7f8a96;
+    font-size: 14px;
+}
+
+/* Arrow */
+
+.profile-arrow {
+    margin-top: 15px;
+
+    font-size: 30px;
+    color: #00d9ff;
+
+    transition: 0.3s ease;
+}
+
+/* Hover */
+
+.profile-card:hover {
+    transform: translateX(8px);
+
+    border-color: #00d9ff;
+
+    box-shadow:
+        0 12px 35px rgba(0, 217, 255, 0.12);
+}
+
+.profile-card:hover img {
+    transform: scale(1.08);
+}
+
+.profile-card:hover .profile-arrow {
+    transform: translate(5px, -5px);
+}

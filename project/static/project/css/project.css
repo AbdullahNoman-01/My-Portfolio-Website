@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.portfolio-label {
+  color: #00bcd4;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.portfolio-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #701919;
+  margin-bottom: 30px;
+}
+
+/* Project Card */
+.project-card {
+    width: 100%;
+    max-width: 380px;
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Project Image */
+.project-image {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: 0.4s ease;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.05);
+}
+
+
+/* Project Content */
+.project-content {
+    padding: 25px;
+}
+
+.project-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: #222;
+}
+
+.project-description {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 18px;
+}
+
+
+/* Features */
+.project-features {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+
+/* Project Links */
+.project-links {
+    display: flex;
+    gap: 10px;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 22px;
+    background: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.project-link:hover {
+    background: #444;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px 8%;
+}
+.hello-a{
+   text-decoration: none;
+   color: inherit;
+}
+
+
+/* footer */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f8fc;
+}

@@ -1,0 +1,111 @@
+{% extends "base.html" %} 
+{% load static %}
+
+{% block extra_css %}
+   <link rel="stylesheet" href="{% static 'css/home.css' %}" />
+{% endblock %}
+    <header>
+      {% comment %} navber {% endcomment %} 
+       {% block content %} 
+       {% comment %} hero section {% endcomment %}
+      <section class="hero-container">
+        <div class="hero-content">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1>
+            Abdullah Al <br />
+            <span>Noman</span>
+          </h1>
+          <h2>Python Developer | Django Developer | Full-Stack Developer</h2>
+          <p class="hero-description">
+            I'm a CSE student and aspiring Full-Stack Developer passionate about
+            building modern, responsive, and user-friendly web applications. I
+            specialize in Python and Django, with experience in HTML, CSS,
+            JavaScript, C++, and REST APIs. I enjoy solving real-world problems,
+            learning new technologies, and turning creative ideas into
+            functional digital solutions.
+          </p>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="{% static 'images/myphoto.jpeg' %}"
+            alt="Abdullah Al Noman"
+          />
+        </div>
+      </section>
+
+      {% comment %} skill section {% endcomment %}
+
+    <section class="skills-section">
+      <div class="skills-header">
+          <span class="skills-label">Skills</span>
+          <h2>My Skills</h2>
+          <p>
+              Technologies and tools I use to build modern web applications.
+          </p>
+      </div>
+      <div class="skills-container">
+          <!-- Python -->
+          <div class="skill-card">
+              <div class="skill-icon">
+                  <img src="{% static 'images/py.webp' %}" alt="Python">
+              </div>
+              <h3>Python</h3>
+          </div>
+
+          <!-- Django -->
+          <div class="skill-card">
+              <div class="skill-icon">
+                  <img src="{% static 'images/dj.jpeg' %}" alt="Django">
+              </div>
+              <h3>Django</h3>
+          </div>
+          <!-- HTML -->
+          <div class="skill-card">
+              <div class="skill-icon">
+                  <img src="{% static 'images/html.avif' %}" alt="HTML">
+              </div>
+              <h3>HTML</h3>
+          </div>
+          <!-- CSS -->
+          <div class="skill-card">
+              <div class="skill-icon">
+                  <img src="{% static 'images/css.png' %}" alt="CSS">
+              </div>
+              <h3>CSS</h3>
+          </div>
+          <!-- JavaScript -->
+          <div class="skill-card">
+              <div class="skill-icon">
+                  <img src="{% static 'images/js.jpeg' %}" alt="JavaScript">
+              </div>
+              <h3>JavaScript</h3>
+          </div>
+          <!-- PostgreSQL -->
+          <div class="skill-card">
+              <div class="skill-icon">
+                  <img src="{% static 'images/post.webp' %}" alt="PostgreSQL">
+              </div>
+              <h3>PostgreSQL</h3>
+          </div>
+          <!-- Git -->
+          <div class="skill-card">
+              <div class="skill-icon">
+                  <img src="{% static 'images/git.webp' %}" alt="Git">
+              </div>
+              <h3>Git & GitHub</h3>
+          </div>
+          <!-- C++ -->
+          <div class="skill-card">
+              <div class="skill-icon">
+                  <img src="{% static 'images/c.jpeg' %}" alt="C++">
+              </div>
+              <h3>C / C++</h3>
+          </div>
+      </div>
+  </section>
+    </header>
+
+    
+    {% endblock %}
+</html>

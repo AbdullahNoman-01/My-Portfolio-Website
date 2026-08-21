@@ -1,0 +1,34 @@
+{% extends "base.html" %} 
+{% load static %}
+
+
+{% block extra_css %}
+   <link rel="stylesheet" href="{% static 'stream/css/stream.css' %}">
+{% endblock  %}
+
+{% block content %}
+   <section class="update-section">
+   <div class="update-card">
+      <div class="update-icon">
+         <span></span>
+      </div>
+
+      <div class="update-content">
+         <span class="update-status">LIVE UPDATE</span>
+
+         <h2>This Page Is Being Updated</h2>
+
+         <p>
+         I'm currently improving this page and adding new content. Please check
+         back soon for the latest updates.
+         </p>
+      </div>
+
+      <div class="update-dots">
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+   </div>
+   </section>
+{% endblock %}
