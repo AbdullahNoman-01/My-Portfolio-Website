@@ -56,7 +56,7 @@ The website is deployed using **Render** and uses **PostgreSQL** for database ma
 ### ☀️ Light Mode
 
 <p align="center">
-  <img src="./Screenshot%202026-08-22%20111952.png" alt="Portfolio Website Light Mode" width="90%">
+  <img src="./Screenshot%202026-08-22%20112004.png" alt="Portfolio Website Light Mode" width="90%">
 </p>
 
 ---
