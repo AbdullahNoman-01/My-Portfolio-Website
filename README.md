@@ -1,11 +1,20 @@
 # 🌐 Abdullah Al Noman — Personal Portfolio
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/portfolio-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/portfolio-light.png">
+    <img src="./assets/portfolio-dark.png" alt="Abdullah Al Noman Portfolio" width="100%">
+  </picture>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Django-6.0-092E20?style=for-the-badge&logo=django&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-Database-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Render-Deployed-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
 </p>
 
@@ -31,7 +40,11 @@ Hi! I'm **Abdullah Al Noman**, a Computer Science and Engineering student and as
 
 I enjoy building web applications, solving programming problems, learning new technologies, and turning ideas into practical projects.
 
+I mainly work with **Python and Django** and I'm currently focusing on backend development and **Django REST Framework**.
+
 This portfolio represents my learning journey, technical skills, projects, and experience in software development.
+
+> **"Learn. Build. Improve. Repeat. 🚀"**
 
 ---
 
@@ -59,42 +72,45 @@ The website is deployed using **Render** and uses **PostgreSQL** for database ma
 - 🗄️ **PostgreSQL Database**
 - ⚡ **Dynamic Content Management**
 - 🎨 **Clean and Modern UI**
+- 🌙 **Dark Mode**
+- ☀️ **Light Mode**
 - 🌍 **Live Deployment on Render**
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
+### 👨‍💻 Backend
 
-| Technology | Purpose |
-|---|---|
-| HTML5 | Website Structure |
-| CSS3 | Styling & Layout |
-| JavaScript | Client-side Interactions |
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django%20REST%20Framework-A30000?style=for-the-badge&logo=django&logoColor=white" />
+</p>
 
-### Backend
+### 🌐 Frontend
 
-| Technology | Purpose |
-|---|---|
-| Python | Programming Language |
-| Django | Web Framework |
-| Django ORM | Database Management |
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+</p>
 
-### Database
+### 🗄️ Database
 
-| Technology | Purpose |
-|---|---|
-| PostgreSQL | Production Database |
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+</p>
 
-### Deployment & Tools
+### 🔧 Tools & Deployment
 
-| Tool | Purpose |
-|---|---|
-| Git | Version Control |
-| GitHub | Source Code Hosting |
-| Render | Deployment |
-| VS Code | Development Environment |
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
+</p>
 
 ---
 
@@ -102,6 +118,10 @@ The website is deployed using **Render** and uses **PostgreSQL** for database ma
 
 ```text
 My-Portfolio-Website/
+│
+├── assets/
+│   ├── portfolio-dark.png
+│   └── portfolio-light.png
 │
 ├── credentials/
 │   ├── migrations/
