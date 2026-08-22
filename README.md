@@ -50,7 +50,7 @@ The website is deployed using **Render** and uses **PostgreSQL** for database ma
 ### 🌙 Dark Mode
 
 <p align="center">
-  <img src="./screenshots/portfolio-dark.png" alt="Portfolio Website Dark Mode" width="90%">
+  <img src="./Screenshot%202026-08-22%20111952.png" alt="Portfolio Website Dark Mode" width="90%">
 </p>
 
 ### ☀️ Light Mode
